@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: backend
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+      python nltk_setup.py
+    startCommand: gunicorn cohere_test:app
