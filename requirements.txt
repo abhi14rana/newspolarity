@@ -1,0 +1,12 @@
+nltk==3.9.1
+textblob==0.19.0
+flask==3.1.2
+flask-cors==6.0.1
+gunicorn==23.0.0
+spacy==3.8.7
+cohere==5.17.0
+langdetect==1.0.9
+textstat==0.7.8
+nrclex==3.0.0
+newspaper3k==0.2.8
+lxml[html_clean]==5.3.0
